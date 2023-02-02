@@ -217,6 +217,9 @@ Remove all line & paste this lines and save file
 [root@node1]# cd /etc/
 [root@node1 etc]# rpm -ivh openpbs-execution-20.0.1-0.x86_64.rpm
 [root@node1 etc]# vi pbs.conf
+                 -------------------------------------
+		    PBS_SERVER= master
+		 -------------------------------------
 [root@node1 etc]# vi /var/spool/pbs/mom_priv/config
 		    -------------------------------------
 				$clienthost master
